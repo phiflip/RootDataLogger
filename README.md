@@ -109,5 +109,3 @@ This project is **Open Source** and intended for **scientific research in root m
 📅 Created by PhiFlip|HAFL – © 2025  
 
 ---
-
-🎯 **Start logging with RootDataLogger!**
