@@ -183,8 +183,8 @@ void loop() {
 
   // Read cable sensor voltage
   int cableSensorReading = analogRead(A0);
-  float voltage = cableSensorReading * 4.98 / 1024.0;
-  float cableLength = (voltage * (41.6666));
+  float voltage = cableSensorReading * 4.92 / 1024.0;
+  float cableLength = (voltage * (41.85));
 
   // Read weight from HX711 and convert to Newtons
   float weightN = scale.get_units() * 9.81;
