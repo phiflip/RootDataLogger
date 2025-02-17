@@ -1,4 +1,4 @@
-# 🌱 RootDataLogger – Data Logging System for Root Pull-Out Tests
+# RootDataLogger – Data Logging System for Root Pull-Out Tests
 
 RootDataLogger is a **data logging system** designed for **measuring root displacement under applied force**. It is used in **root pull-out experiments** to study root mechanical properties and their role in soil stabilization.
 
@@ -52,14 +52,14 @@ RootDataLogger/
 
 ---
 
-## 🚀 **Features**
+## **Features**
 ✅ **Root Pull-Out Testing** – Measures root displacement under applied force  
 ✅ **LoadCell (HX711) Integration** – Records applied force values  
 ✅ **Wire Sensor Support** – Captures displacement of roots  
-✅ **SD Card Logging** – Saves measurements in `.txt` or `.csv` format  
-✅ **Real-Time Clock (RTC)** – Adds timestamps to measurement data  
-✅ **Bluetooth HC-05** – Enables remote data monitoring  
-✅ **Basic Calibration Tools** – Ensures accurate sensor readings  
+✅ **SD Card Logging** – Saves measurements in `.csv` format  
+✅ **Real-Time Clock (RTC)** – Adds timestamps to measurement data 
+✅ **Bluetooth HC-05** – Enables remote data monitoring
+✅ **Basic Calibration Tools** – Ensures accurate sensor readings
 
 ---
 
@@ -97,18 +97,17 @@ Alternatively, the data can be opened in **Excel/Google Sheets** for analysis.
 
 ---
 
-## 📡 **Future Improvements**
-- 🔹 **WiFi Support (ESP8266/ESP32)** – Enable cloud-based data storage  
+## **Future Improvements**
 - 🔹 **Graphical Interface** – Live data visualization  
 - 🔹 **Database Integration** – Store measurement logs for long-term analysis  
 
 ---
 
-## 📌 **License & Contributions**
+## **License & Contributions**
 This project is **Open Source** and intended for **scientific research in root mechanics and soil stability**. Contributions, bug reports, and feature suggestions are welcome.  
 
-📅 Created by [Your Name or Team] – © 2025  
+📅 Created by PhiFlip|HAFL – © 2025  
 
 ---
 
-🎯 **Start logging with RootDataLogger!** 🚀
+🎯 **Start logging with RootDataLogger!**
