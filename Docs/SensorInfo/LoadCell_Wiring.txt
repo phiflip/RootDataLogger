@@ -1,0 +1,16 @@
+LoadCell Wiring Guide
+
+### LoadCell Connection LoadCell to HX711
+
+Connector Pin | HX711 Connection
+--------------|------------------
+1             | E+
+2             | E-
+3             | A-
+4             | A+
+5             | GND (braid)
+
+### Additional Notes for 6-Wire LoadCell Setup
+For 6-wire LoadCells, the Sense wires are connected to:
+- Sense+ → E+
+- Sense- → E-

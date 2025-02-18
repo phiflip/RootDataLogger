@@ -1,0 +1,10 @@
+Draw Wire Potentiometer Wiring Guide
+
+Connector Pin | Arduino Connection
+--------------|------------------
+1             | 5V
+2             | A0
+3             | GND
+4             | Empty
+5             | Empty
+
