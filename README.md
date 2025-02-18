@@ -6,7 +6,7 @@ The system uses a **LoadCell (HX711)** to apply force and a **Wire Sensor** to m
 
 ---
 
-## 📂 **Project Structure**
+## **Project Structure**
 ```plaintext
 RootDataLogger/
 │── Docs/              # Documentation, manuals, schematics, sensor details
@@ -27,24 +27,11 @@ RootDataLogger/
 │
 │── Scripts/           # Helper scripts for data analysis & processing
 │   ├── log_converter.py      # Converts SD logs into CSV/JSON
-│   ├── realtime_monitor.py   # Live data monitoring
 │
 │── Tests/             # Calibration & functional tests
-│   ├── test_sd_card.ino       # Checks SD card detection & logging
 │   ├── test_loadcell.ino      # LoadCell test & calibration
 │   ├── test_rtc.ino           # RTC reset & verification
-│   ├── test_bluetooth.ino     # HC-05 Bluetooth test
 │   ├── test_wire_sensor.ino   # Wire Sensor functionality test
-│   ├── calibration_tool.ino   # Calibration for LoadCell & Wire Sensor
-│
-│── Configs/           # Configuration files for flexible setup
-│   ├── config.json     # JSON file for key parameters
-│   ├── settings.ini    # Alternative INI configuration
-│
-│── Logs/              # Recorded measurement data & error logs
-│   ├── log_YYYY-MM-DD.txt   # Sample log files from the SD logger
-│   ├── log_example.csv      # Example log data in CSV format
-│   ├── error_log.txt        # Debug & error logs
 │
 │── README.md          # Project description & usage guide
 │── .gitignore         # Excludes unnecessary files
