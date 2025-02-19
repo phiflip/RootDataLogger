@@ -11,9 +11,9 @@ The system uses a **LoadCell (HX711)** to apply force and a **Wire Sensor** to m
 RootDataLogger/
 │── Docs/              # Documentation, manuals, schematics, sensor details
 │   ├── Example/       # Sample files & test logs
-│   ├── Manuals/       # User guides & documentation
-│   ├── Schematics/    # Circuit diagrams & PCB layouts
-│   ├── Images/        # Photos, diagrams, screenshots
+│   ├── Manuals/       # User guide
+│   ├── Schematics/    # Circuit diagram
+│   ├── Images/        # Photos
 │   ├── SensorInfo/    # Sensor-related documentation
 │       ├── inventory.md         # List of sensors & hardware used
 │       ├── wiring_diagram.pdf   # Sensor wiring & circuit diagram
