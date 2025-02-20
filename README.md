@@ -50,43 +50,12 @@ RootDataLogger/
 
 ---
 
-## 🛠 **Installation & Setup**
-### 🔹 **1. Connect the Hardware**
-- Insert an **SD card** into the **Logger**  
-- Properly connect **LoadCell (HX711), Wire Sensor, RTC module, and Bluetooth HC-05**  
-
-### 🔹 **2. Adjust Configuration Settings**
-Modify the `config.json` file to match your setup:
-```json
-{
-    "calibration_factor": -1060,
-    "wire_sensor_sensitivity": 0.02,
-    "bluetooth_rx_pin": 9,
-    "bluetooth_tx_pin": 4,
-    "loadcell_dout_pin": 3,
-    "loadcell_sck_pin": 2
-}
-```
-
-### 🔹 **3. Upload Code to the Microcontroller**
-1. Open the Arduino IDE  
-2. Upload `Logger_II.ino` or `Logger_I.ino`  
-3. Start the serial monitor or connect via Bluetooth  
-
----
-
 ## 📊 **Data Processing & Analysis**
 Recorded measurement logs can be processed using **Python**:
 ```bash
 python scripts/log_converter.py log_YYYY-MM-DD.txt
 ```
 Alternatively, the data can be opened in **Excel/Google Sheets** for analysis.
-
----
-
-## **Future Improvements**
-- 🔹 **Graphical Interface** – Live data visualization  
-- 🔹 **Database Integration** – Store measurement logs for long-term analysis  
 
 ---
 
