@@ -10,7 +10,6 @@ The system uses a **LoadCell (HX711)** to apply force and a **Wire Sensor** to m
 ```plaintext
 RootDataLogger/
 │── Docs/              # Documentation, manuals, schematics, sensor details
-│   ├── Example/       # Sample files & test logs
 │   ├── Manuals/       # User guide
 │   ├── Schematics/    # Circuit diagram
 │   ├── Images/        # Photos
@@ -26,7 +25,7 @@ RootDataLogger/
 │   ├── Logger_II/     # Code for Logger II
 │
 │── Scripts/           # Helper scripts for data analysis & processing
-│   ├── log_converter.py      # Converts SD logs into CSV/JSON
+│   ├── sensor-data-visualizer.py      # Converts SD logs into CSV/JSON
 │
 │── Tests/             # Calibration & functional tests
 │   ├── test_loadcell.ino      # LoadCell test & calibration
@@ -40,17 +39,17 @@ RootDataLogger/
 ---
 
 ## **Features**
-✅ **Root Pull-Out Testing** – Measures root displacement under applied force  
-✅ **LoadCell (HX711) Integration** – Records applied force values  
-✅ **Wire Sensor Support** – Captures displacement of roots  
-✅ **SD Card Logging** – Saves measurements in `.csv` format  
-✅ **Real-Time Clock (RTC)** – Adds timestamps to measurement data 
-✅ **Bluetooth HC-05** – Enables remote data monitoring
-✅ **Basic Calibration Tools** – Ensures accurate sensor readings
+**Root Pull-Out Testing** – Measures root displacement under applied force  
+**LoadCell (HX711) Integration** – Records applied force values  
+**Wire Sensor Support** – Captures displacement of roots  
+**SD Card Logging** – Saves measurements in `.csv` format  
+**Real-Time Clock (RTC)** – Adds timestamps to measurement data 
+**Bluetooth HC-05** – Enables remote data monitoring
+**Basic Calibration Tools** – Ensures accurate sensor readings
 
 ---
 
-## 📊 **Data Processing & Analysis**
+## **Data Processing & Analysis**
 Recorded measurement logs can be processed using **Python**:
 ```bash
 python scripts/log_converter.py log_YYYY-MM-DD.txt
@@ -62,6 +61,6 @@ Alternatively, the data can be opened in **Excel/Google Sheets** for analysis.
 ## **License & Contributions**
 This project is **Open Source** and intended for **scientific research in root mechanics and soil stability**. Contributions, bug reports, and feature suggestions are welcome.  
 
-📅 Created by PhiFlip|HAFL – © 2025  
+Created by phiflip | HAFL – © 2025
 
 ---
