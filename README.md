@@ -5,7 +5,6 @@ RootDataLogger is a **data logging system** designed for **measuring root displa
 The system uses a **LoadCell (HX711)** to apply force and a **Wire Sensor** to measure root displacement. Measurement data is recorded on an **SD card**, and real-time transmission via **Bluetooth (HC-05)** enables remote monitoring. Additionally, the system includes **basic calibration and diagnostic tools** to improve measurement accuracy.
 
 ---
-
 ## **Project Structure**
 ```plaintext
 RootDataLogger/
@@ -31,9 +30,6 @@ RootDataLogger/
 │   ├── test_loadcell.ino      # LoadCell test & calibration
 │   ├── test_rtc.ino           # RTC reset & verification
 │   ├── test_wire_sensor.ino   # Wire Sensor functionality test
-│
-│── README.md          # Project description & usage guide
-│── .gitignore         # Excludes unnecessary files
 ```
 
 ---
