@@ -66,5 +66,3 @@
 (This estimate includes all listed items with available pricing.)
 
 ---
-
-**Note:** All prices and quantities based on [Conrad order confirmation] dated 24.10.2024.
