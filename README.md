@@ -9,23 +9,23 @@ The system uses a **LoadCell (HX711)** to apply force and a **Wire Sensor** to m
 ## **Project Structure**
 ```plaintext
 RootDataLogger/
-│── Docs/              # Documentation, manuals, schematics, sensor details
-│   ├── Manuals/       # User guide
-│   ├── Schematics/    # Circuit diagram
-│   ├── Images/        # Photos
-│   ├── SensorInfo/    # Sensor-related documentation
-│       ├── inventory.md         # List of sensors & hardware used
-│       ├── wiring_diagram.pdf   # Sensor wiring & circuit diagram
-│       ├── calibration_data/    # Calibration values for LoadCell & Wire Sensor
-│       ├── sensor_specs/        # Sensor datasheets (HX711, Wire Sensor, RTC)
-│       ├── maintenance_log.md   # Sensor maintenance records
-│
+
 │── Code/              # Main firmware for the logger
 │   ├── Logger_I/      # Code for Logger I
 │   ├── Logger_II/     # Code for Logger II
 │
+│── Docs/              # Documentation, manuals, schematics, sensor details
+│   ├── inventory.md   # List of sensors & hardware used
+│   ├── Images/        # Photos
+│   ├── Manuals/       # User guide
+│   ├── Schematics/    # Circuit diagram
+│   ├── SensorInfo/    # Sensor-related documentation
+│       ├── LoadCell_Wiring.txt
+│       ├── WirePotentiometer_Wiring.txt
+│
 │── Scripts/           # Helper scripts for data analysis & processing
-│   ├── sensor-data-visualizer.py      # Converts SD logs into CSV/JSON
+│    ├── Plots         # Example plots of a measurement
+│    ├── sensor-data-visualizer.py      # Converts SD logs into CSV/JSON
 │
 │── Tests/             # Calibration & functional tests
 │   ├── test_loadcell.ino      # LoadCell test & calibration
