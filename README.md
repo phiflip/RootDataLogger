@@ -1,5 +1,7 @@
 # RootDataLogger – Data Logging System for Root Pull-Out Tests
 
+<img src="https://github.com/phiflip/RootDataLogger/Docs/Images/icon_v2.png" width="150" alt="RootDataLogger main logo type">
+
 RootDataLogger is a **data logging system** designed for **measuring root displacement under applied force**. It is used in **root pull-out experiments** to study root mechanical properties and their role in soil stabilization.
 
 The system uses a **LoadCell (HX711)** to apply force and a **Wire Sensor** to measure root displacement. Measurement data is recorded on an **SD card**, and real-time transmission via **Bluetooth (HC-05)** enables remote monitoring. Additionally, the system includes **basic calibration and diagnostic tools** to improve measurement accuracy.
