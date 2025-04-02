@@ -48,7 +48,7 @@ RootDataLogger/
 ## **Data Processing & Analysis**
 Recorded measurement logs can be processed using **Python**:
 ```bash
-python scripts/log_converter.py log_YYYY-MM-DD.txt
+python scripts/sensor-data-visualizer.py
 ```
 Alternatively, the data can be opened in **Excel/Google Sheets** for analysis.
 
