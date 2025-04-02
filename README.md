@@ -1,6 +1,6 @@
 # RootDataLogger – Data Logging System for Root Pull-Out Tests
 
-<img src="https://github.com/phiflip/RootDataLogger/Docs/Images/icon_v2.png" width="150" alt="RootDataLogger main logo type">
+<img src="https://raw.githubusercontent.com/phiflip/RootDataLogger/main/Docs/Images/icon_v2.png" width="150" alt="RootDataLogger main logo type">
 
 RootDataLogger is a **data logging system** designed for **measuring root displacement under applied force**. It is used in **root pull-out experiments** to study root mechanical properties and their role in soil stabilization.
 
